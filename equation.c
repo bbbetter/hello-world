@@ -1,4 +1,13 @@
-//æ±‚è§£å¦‚ä¸‹æ–¹ç¨‹ç»„
+//Çó½âÈçÏÂ·½³Ì×é
 //ax + by = c
 //dx + ey = f
-//æ³¨æ„è¾“å…¥/è¾“å‡ºï¼Œæ•°æ®ç±»å‹
+//×¢ÒâÊäÈë/Êä³ö£¬Êı¾İÀàĞÍ
+#include<stdio.h>
+main()
+{double a,b,c,d,e,f,x,y; 
+ printf("ÇëÊäÈëx yÇ°ÃæµÄÏµÊıÒÔ¼°c f µÄÖµ\n");
+ scanf("%lf%lf%lf%lf%lf%lf",&a,&b,&c,&d,&e,&f);
+  x=(c*e-b*f)/(a*e-b*d);
+  y=(c*d-a*f)/(b*d-a*e);
+  printf("x=%lf,y=%lf\n",x,y);
+  } 
